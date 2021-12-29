@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 import java.util.Scanner;
 
 class Salesman {
@@ -34,7 +34,6 @@ class Salesman {
         }
 
         if (table[mask][pos] != -1) {
-            // *LOOKS LIKE THIS PART WAS NOT EXECUTED IN THE OUTPUT*
 
             System.out.println("Cache (mask, pos):: " + mask + "   :::  " + pos);
             return table[mask][pos];
@@ -80,3 +79,32 @@ class Salesman {
     }
 
 }
+
+// Enter the number of villages: 
+// 4
+// Enter the cost Matrix: 
+// Enter element of Row 1
+// 0 20 42 25
+// Enter element of Row 2
+// 20 0 30 34
+// Enter element of Row 3
+// 42 30 0 10
+// Enter element of Row 4
+// -1   -1   -1   -1
+// 85   -1   -1   -1
+// -1   -1   -1   -1
+// -1   65   -1   -1
+// -1   -1   -1   -1
+// -1   -1   64   -1
+// -1   -1   -1   -1
+// -1   59   35   -1
+// -1   -1   -1   -1
+// -1   -1   -1   60
+// -1   -1   -1   -1
+// -1   72   -1   52
+// -1   -1   -1   -1
+// -1   -1   50   54
+// -1   -1   -1   -1
+// -1   -1   -1   -1
+// Result:: Minimum path cost :- 85
+// This Algorithm took 6357900 milliseconds
